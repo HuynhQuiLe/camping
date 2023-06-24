@@ -1,0 +1,255 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg-primary: #f8e1db;
+  --color-bg-secondary: #faf4f2;
+  --color-orange: #e76f51;
+  --color-text: #8d8d8d;
+  --color-button: #e8e8e8;
+  --color-white: #ffffff;
+  --color-black: #000;
+}
+
+.container {
+  background-color: var(--color-bg-secondary);
+}
+
+#header {
+  padding: 1rem 3rem;
+  background-color: var(--color-bg-primary);
+}
+
+#header ul {
+  margin-top: 1rem;
+}
+
+#header ul li {
+  display: inline;
+}
+
+#header ul li a {
+  text-decoration: none;
+  color: var(--color-black);
+  font-size: 1.2rem;
+  margin-right: 1.5rem;
+}
+
+#carousel img {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+#activies {
+  padding: 4rem 0;
+}
+
+.activies__title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.activies__title img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.activies__title h1 {
+  font-size: 2rem;
+  color: var(--color-text);
+}
+
+.activies__card {
+  width: 100%;
+}
+
+.activites__card-items {
+  width: 25%;
+  padding: 0 1rem;
+  float: left;
+  text-align: center;
+}
+
+.activites__card-items_container {
+  background-color: var(--color-white);
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 1.5rem;
+}
+
+.activites__card-items_container_img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.activites__card-items_container_img img {
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+.activites__card-items_container_img i {
+  font-size: 1.2rem;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0.7rem;
+  text-align: center;
+  line-height: 40px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: var(--color-orange);
+}
+
+.activites__card-items_container_content h2 {
+  font-size: 1.2rem;
+}
+
+.activites__card-items_container_content p {
+  font-size: 1rem;
+  color: var(--color-text);
+  margin: 1.2rem 0;
+}
+
+.activites__card-items_container_content button {
+  font-size: 0.9rem;
+  background-color: var(--color-button);
+  border: none;
+  padding: 1rem 2rem;
+  color: var(--color-text);
+  border-radius: 1.5rem;
+  cursor: pointer;
+}
+
+.clear {
+  clear: both;
+}
+
+.activies__button {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.activies__button button {
+  padding: 1rem 5rem;
+  border: 1px solid var(--color-orange);
+  color: var(--color-orange);
+  background-color: unset;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+#contact {
+  background-color: var(--color-bg-primary);
+}
+
+.contact__container {
+  width: 100%;
+}
+
+.contact__img,
+.contact__content {
+  float: left;
+  width: 50%;
+  height: 100%;
+  padding: 3rem;
+}
+
+.contact__img {
+  height: 100%;
+  background: url("./images/mask.png") center no-repeat;
+  background-size: cover;
+}
+
+.contact__content {
+  transform: translateY(calc((50% - 55px)));
+}
+
+.contact__content-title h1 {
+  font-size: 2rem;
+  color: var(--color-text);
+}
+
+.contact__content-title p {
+  font-size: 1rem;
+  color: var(--color-text);
+  margin: 1.2rem 0;
+}
+
+.contact__content-bottom_dowload,
+.contact__content-bottom_follow {
+  float: left;
+  width: 50%;
+}
+
+.contact__content-bottom_dowload h2,
+.contact__content-bottom_follow h2 {
+  font-size: 1.2rem;
+  color: var(--color-text);
+  margin-bottom: 1rem;
+}
+
+.contact__content-bottom_dowload img {
+  width: 120px;
+}
+
+.contact__content-bottom_follow i {
+  font-size: 1.4rem;
+  color: var(--color-orange);
+  margin-right: 0.6rem;
+  cursor: pointer;
+}
+
+#footer {
+  padding-top: 6rem;
+}
+
+.footer__container {
+  background-color: var(--color-bg-primary);
+  border-radius: 5rem 5rem 0 0;
+  padding: 5rem 3rem 3rem;
+}
+
+.footer__container-col {
+  float: left;
+  width: 20%;
+  padding-right: 2rem;
+}
+
+.footer__container-col_bigger {
+  width: 40%;
+}
+
+.footer__container-col h3 {
+  margin-bottom: 2rem;
+}
+
+.footer__container-col ul {
+  list-style: none;
+}
+
+.footer__container-col li {
+  margin-bottom: 1rem;
+}
+
+.footer__container-col a {
+  text-decoration: none;
+  color: var(--color-black);
+}
+
+.footer__container-col p {
+  line-height: 1.8rem;
+}
+
+.footer__container > p {
+  margin-top: 2rem;
+  text-align: center;
+}
